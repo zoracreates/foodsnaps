@@ -11,6 +11,14 @@ h2 {
     font-size: 2.5em;
 }
 
+a {
+    color: #2c2827;
+}
+
+a:hover {
+    color:#bb432b;
+    text-decoration: none;
+}
 
 .navbar-light .navbar-brand, 
 .navbar-light .navbar-nav .nav-link, 
@@ -31,7 +39,6 @@ a.navbar-brand:hover {
     color: #795324!important;
 }
 
-
 .btn.btn-default{
     background: #c8b8a1;
 }
@@ -40,18 +47,12 @@ button:focus {
     outline-color:#bb432b;
 }
 
-a {
-    color: #2c2827;
-}
-
-a:hover {
-    color:#bb432b;
-    text-decoration: none;
-}
+/*landing page*/
 
 #main-title {
     padding-top: 20%;
 }
+
 #main-title, #main-subtitle {
     padding-bottom: 10px;
     color:white;
@@ -65,27 +66,15 @@ a:hover {
     background-position: center;
 }
 
+/*about page*/
 #about {
     max-height: 500px;
     padding-top: 70px;
     padding-bottom: 10px;
 }
 
-#gallery {
-    padding-top: 70px;
-}
-
 #testimonials {
     margin-bottom: 50px;
-}
-
-#testimonials p {
-    padding: 10px;
-}
-
-#testimonials h4 {
-    text-align: center;
-    padding-top: 10px;
 }
 
 #testimonials .quote {
@@ -95,9 +84,31 @@ a:hover {
     margin: 10px auto;
 }
 
+#testimonials h4 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+#testimonials p {
+    padding: 10px;
+}
+
+
+/*gallery page*/
+#gallery {
+    padding-top: 70px;
+}
+
+/*contact page*/
+
 #contact-page {
     padding-top: 50px;
     height: 100%;
+}
+
+#contact-form {
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 #contact-sidebar {
@@ -110,10 +121,6 @@ a:hover {
     padding-top: 15%;
 }
 
-#contact-form {
-    padding-top: 20px;
-    padding-bottom: 10px;
-}
 ul.contact-list {
     padding-left: 20px;
     padding-top: 10px;
