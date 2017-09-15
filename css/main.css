@@ -73,32 +73,6 @@ a:hover {
 
 #gallery {
     padding-top: 70px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-.grid-sizer,
-.grid-item {
-    height: 300px;
-    width: 25%;
-    display: flex;
-}
-
-.grid-item img {
-    height: 100%;
-}
-
-.grid-item.sm {
-    width: 20%;
-}
-
-.grid-item.md {
-    width: 35%;
-}
-
-.grid.item.lg {
-       width: 40%;
 }
 
 #testimonials {
